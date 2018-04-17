@@ -1,3 +1,3 @@
 # mod-ui
-ss_panel_theme test
+ss_panel_index test
 
