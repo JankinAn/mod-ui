@@ -1,0 +1,21 @@
+
+2018/4/16, 11:20:34 PM - ERROR: Download of "https://vnet.link/vxdns",
+	referenced from "/Users/KennyS/Downloads/us.sitesucker.mac.sitesucker/vnet.link/index.html",
+	failed with error code 404 (not found)
+2018/4/16, 11:20:42 PM - ERROR: Download of "https://vnet.link/tpl/new/css/owl.video.play.png",
+	referenced from "/Users/KennyS/Downloads/us.sitesucker.mac.sitesucker/vnet.link/tpl/new/css/plugins.min-v=3.css",
+	failed with error code 404 (not found)
+2018/4/16, 11:20:47 PM - ERROR: Download of "https://vnet.link/tpl/ipac/fonts/fontawesome-webfont.eot?v=4.7.0",
+	referenced from "/Users/KennyS/Downloads/us.sitesucker.mac.sitesucker/vnet.link/tpl/ipac/css/font-awesome.css",
+	failed with error code 404 (not found)
+2018/4/16, 11:20:47 PM - ERROR: Download of "https://vnet.link/tpl/ipac/fonts/fontawesome-webfont.eot?",
+	referenced from "/Users/KennyS/Downloads/us.sitesucker.mac.sitesucker/vnet.link/tpl/ipac/css/font-awesome.css",
+	failed with error code 404 (not found)
+2018/4/16, 11:20:47 PM - ERROR: Download of "https://vnet.link/tpl/ipac/fonts/fontawesome-webfont.ttf?v=4.7.0",
+	referenced from "/Users/KennyS/Downloads/us.sitesucker.mac.sitesucker/vnet.link/tpl/ipac/css/font-awesome.css",
+	failed with error code 404 (not found)
+2018/4/16, 11:20:48 PM - ERROR: Download of "https://vnet.link/tpl/ipac/fonts/fontawesome-webfont.svg?v=4.7.0",
+	referenced from "/Users/KennyS/Downloads/us.sitesucker.mac.sitesucker/vnet.link/tpl/ipac/css/font-awesome.css",
+	failed with error code 404 (not found)
+
+---------------------

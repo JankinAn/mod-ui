@@ -1,0 +1,193 @@
+html,body{
+    margin: 0;
+    padding:0;
+    height: 100%;
+    background-color: rgb(247, 247, 247);
+}
+html,body,h1,h2,h3,h4,h5{
+    font-family: "Helvetica Neue", "Luxi Sans", "DejaVu Sans", Tahoma, "Hiragino Sans GB", "Microsoft Yahei", sans-serif;
+}
+.badge-color{
+    background-color: #363636;
+}
+#bg_tmp{
+    position: absolute;
+    display: none;
+    z-index:-1;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#container {
+    min-height:100%;
+    height: auto !important;
+    height: 100%; /*IE6不识别min-height*/
+    position: relative;
+}
+#header {
+    padding: 20px;
+}
+#footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px;/*脚部的高度*/
+    clear:both;
+}
+.nav > li > a{
+    float: left;
+}
+@media(min-width: 768px){
+    .container{
+        width: auto;
+    }
+    .center-block{
+        width: auto;
+    }
+    #index_container{
+        color: rgb(32, 32, 32);
+    }
+}
+@media(min-width: 1000px){
+    .container{
+        width: 900px;
+    }
+    .center-block{
+        width: 500px;
+    }
+    #index_container{
+        color: rgb(32, 32, 32);
+    }
+}
+@media(min-width: 1200px){
+    .container{
+        width: 1200px;
+    }
+    .center-block{
+        width: 500px;
+    }
+    #index_container{
+        color: rgb(32, 32, 32);
+    }
+}
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+    height: 500px;
+    margin-bottom: 60px;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+    z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+    height: 500px;
+    background-color: #D8D8D8;
+}
+.carousel-inner > .item > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 500px;
+}
+
+
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+.marketing h2 {
+    font-weight: normal;
+}
+.marketing .col-lg-4 p {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+    margin: 80px 0; /* Space out the Bootstrap <hr> more */
+}
+
+.featurette-image {
+    margin-left: auto; /* Space out the Bootstrap <hr> more */
+    margin-right: auto;
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+    font-weight: 300;
+    line-height: 1;
+    letter-spacing: -1px;
+}
+
+/*card*/
+
+.card{
+    border-width: 1px;
+    border-style: solid;
+    border-color: #9c9a9a;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+    border-radius: 5px;
+    margin-right: 3px;
+    margin-top: 6px;
+    text-align:center;
+    cursor:pointer;
+}
+
+.card:hover{
+    background-color: #e1feff;
+    box-shadow: 1px 1px 0px 0px #83afc7;
+}
+
+.card a:hover{
+    text-decoration:none;
+    background: #e7e7e7;
+}
+
+.card a{
+    text-decoration:none;
+}
+.card-green a{
+    color: green;
+}
+.card-red a{
+    color: red;
+}
+.card-blue a{
+    color: blue;
+}
+.card-red a{
+    color: red;
+}
+.card-blueviolet a{
+    color: blueviolet;
+}
+@-webkit-keyframes twinkling-core{
+    0%{
+	opacity:0; 
+    }
+    100%{
+	opacity:1;
+    }
+}
+.twinkling{
+    -webkit-animation: twinkling-core 2s infinite ease-in-out; 
+}
